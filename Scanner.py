@@ -1,4 +1,7 @@
-#!/usr/bin/env python3
+#Author: Raisa Methila
+#A lightweight Python TCP port scanner that checks specified ports on a target host using concurrent connections.
+#Supports customizable port ranges, timeouts, optional banner grabbing, and DNS skipping for fast, educational network scanning.
+
 import argparse
 import socket
 import concurrent.futures
